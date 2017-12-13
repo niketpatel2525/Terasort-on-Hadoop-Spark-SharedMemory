@@ -1,0 +1,11 @@
+# run spark-shell using following command for i3.large
+
+ spark-shell --conf spark.local.dir=/data/sparktmp --executor-memory 6g --num-executors 2 --driver-memory 4g
+
+
+# run spark-shell using following command for i3.4xlarge
+
+ spark-shell --conf spark.local.dir=/data/sparktmp --executor-memory 12g --num-executors 2 --driver-memory 4g
+
+
+ 

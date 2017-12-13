@@ -1,0 +1,5 @@
+
+Scala> val lines = sc.textFile("hdfs://localhost:9000/input/sample.txt")
+scala> val rdd1 = lines.map(x=>(x.slice(0,10), x.slice(10,x.length)))
+scala> val rdd2 = rdd1.sortBy(_._1)
+scala> rdd2.map(k => k._1+k._2).saveAsTextFile("hdfs://localhost:9000/output")
