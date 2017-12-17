@@ -1,11 +1,10 @@
 # Terasort-on-Hadoop-Spark-SharedMemory
 
 ================================================================================
-                              Assignment Manual
+                              Assignment Manual                              
 ================================================================================
 
-
-### Folder Structure
+Folder Structure
 Assignment
  | --- 1.code
        | - Hadoop
@@ -21,7 +20,7 @@ Assignment
    --- readme.txt
 
 ================================================================================
-### Shared Memory Terasort
+Shared Memory Terasort
 ================================================================================
 
 Run java program as background service using following Command
@@ -31,7 +30,7 @@ $ nohup java ExternalSort sample.txt &
 
 
 ================================================================================
-### Run Hadoop Terasort Program
+Run Hadoop Terasort Program
 ================================================================================
 
 I have attached jar file of Terasort program with this assignment. Use following
@@ -43,7 +42,7 @@ $ hadoop jar hadoop_demo-0.0.1-SNAPSHOT.jar  assigment.hadoop_demo.Terasort /inp
 
 
 ================================================================================
-### un Spark Terasort Program
+Run Spark Terasort Program
 ================================================================================
 
 To initiate Spark-shell, Use following command for respective configuration.
