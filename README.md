@@ -2,6 +2,7 @@
 
 ### Shared Memory Terasort
 ==========================
+
 Run java program as background service using following Command
 
 $ javac ExternalSort.java
@@ -11,6 +12,7 @@ $ nohup java ExternalSort sample.txt &
 
 ### Run Hadoop Terasort Program
 ===============================
+
 I have attached jar file of Terasort program with this assignment. Use following
 Command to run the program.
 
@@ -22,6 +24,7 @@ $ hadoop jar hadoop_demo-0.0.1-SNAPSHOT.jar  assigment.hadoop_demo.Terasort /inp
 
 ### Run Spark Terasort Program
 ==============================
+
 To initiate Spark-shell, Use following command for respective configuration.
 
 i3.large
